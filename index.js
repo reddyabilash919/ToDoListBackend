@@ -7,7 +7,7 @@ const mysql      = require('mysql');
 const app        = express();
 
 const db = mysql.createConnection({
-    host:"localhost",
+    host:"database-1.ctcgsun63omv.ap-southeast-2.rds.amazonaws.com",
     user:"root",
     password:"nopassword",
     database:"todolist",
